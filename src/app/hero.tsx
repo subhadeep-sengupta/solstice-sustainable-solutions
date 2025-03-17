@@ -13,12 +13,19 @@ export default function HeroSection() {
         controls={false}
         width="100%"
         height="100%"
-        className="w-screen h-screen absolute inset-0 object-cover opacity-70"
+        className="w-screen h-screen absolute inset-0 object-cover "
       ></video>
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-700/50 via-slate-800/50 to-slate-900/50 z-[5]"></div>
       <div className="relative z-10 h-full w-full flex flex-col justify-center items-center text-white">
-        <span className="text-4xl font-bold mb-4">Best Solar</span>
-        <h2 className="text-4xl font-bold mb-4">Panel Installation</h2>
-        <h2 className="text-4xl font-bold mb-4">Company in Durgapur</h2>
+        <h2 className="text-6xl font-[400] mb-4 font-sigmar bg-gradient-to-r from-orange-500 to-orange-600 text-transparent bg-clip-text ">
+          Best Solar
+        </h2>
+        <h2 className="text-7xl font-bold mb-4 font-inconsolata">
+          Panel Company
+        </h2>
+        <h2 className="text-5xl font-bold mb-11 font-sans text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-green-600">
+          In Durgapur and Asansol
+        </h2>
 
         <DottedButton />
       </div>

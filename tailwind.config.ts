@@ -15,7 +15,9 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        Inconsolata: "Inconsolata",
+        inconsolata: ["Inconsolata", "monospace"],
+        inter: ["Inter", "sans-serif"],
+        sigmar: ["Sigmar", "cursive"],
       },
     },
   },
