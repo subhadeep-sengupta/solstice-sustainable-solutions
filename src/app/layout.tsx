@@ -29,10 +29,6 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        // style={{
-        //   backgroundImage: "linear-gradient(to right, #84cc16, #facc15)", // Equivalent to from-lime-500 to-yellow-400
-        //   color: "white",
-        // }}
       >
         <Navbar />
         <main>{children}</main>
