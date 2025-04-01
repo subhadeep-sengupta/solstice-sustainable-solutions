@@ -49,14 +49,14 @@ export default function Navbar() {
           <Tab href="/">Home</Tab>
           <Tab href="/Aboutus">About us</Tab>
           <Tab href="/Aboutus">Projects</Tab>
-          <Tab href="/contactus">Contact us</Tab>
+          <Tab href="/Contactus">Contact us</Tab>
         </ul>
 
         <div className="flex-1 flex justify-end">
           {/* Desktop Button */}
           <button
             className="hidden md:block rounded-2xl border-2 border-dashed border-black bg-white px-3 py-1.5 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
-            onClick={() => router.push("/contactus")}
+            onClick={() => router.push("/Contactus")}
           >
             Get a Quote
           </button>
@@ -92,7 +92,7 @@ export default function Navbar() {
               <button
                 className="rounded-2xl border-2 border-dashed border-black bg-white px-3 py-1.5 font-semibold uppercase text-black transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_black] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none"
                 onClick={() => {
-                  router.push("/contactus");
+                  router.push("/Contactus");
                   setIsMenuOpen(false);
                 }}
               >

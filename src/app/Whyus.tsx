@@ -7,8 +7,8 @@ function Whyus() {
       <span className="bg-green-500 h-0.5 bottom-0 left-0 w-full mb-6"></span>
       <div className="relative container flex flex-col items-center justify-center md:flex-row">
         <Card
-          header={`Customized Solar Solutions for Every Need`}
-          paragraph={`We understand that each customer has unique energy requirements. That’s why we offer customized solar solutions tailored to your specific needs. Whether it's a small home installation or a large-scale commercial project, we are equipped to handle it all.`}
+          header={`Customized Solar Solutions`}
+          paragraph={`We understand that each customer has unique energy requirements. That is why we offer customized solar solutions tailored to your specific needs. Whether it's a small home installation or a large-scale commercial project, we are equipped to handle it all.`}
         />
         <Card
           header={`Expertise in Solar Panel Installations`}

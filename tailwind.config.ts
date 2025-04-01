@@ -18,6 +18,7 @@ export default {
         inconsolata: ["Inconsolata", "monospace"],
         inter: ["Inter", "sans-serif"],
         sigmar: ["Sigmar", "cursive"],
+        sans: ["Geist", "sans"],
       },
     },
   },

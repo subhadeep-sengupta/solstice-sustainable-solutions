@@ -1,41 +1,32 @@
 "use client";
-import Image from "next/image";
-const imageUrl1 = "/1.jpg";
-export default function AboutSection() {
+
+import AboutSection from "../AboutSection";
+import Whyus from "../Whyus";
+import Vision from "./vision";
+import Whychooseus from "./whychooseus";
+
+// import Image from "next/image";
+
+export default function Aboutus() {
   return (
-    <section id="about" className="bg-white py-20">
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-lime-600 mb-8">
-          About Us
+    <section
+      className="bg-slate-200 py-20 bg-no-repeat bg-cover w-full h-full relative flex flex-col justify-center items-center"
+      style={{
+        backgroundImage: `radial-gradient(circle at 0.7px 0.7px, rgba(10,124,28, 0.5) 1px, transparent 1px)`,
+        backgroundSize: "8px 8px",
+        backgroundRepeat: "repeat",
+      }}
+    >
+      <div className="bg-white opacity-55 absolute inset-0" />
+
+      <div className="relative flex flex-col justify-center items-center">
+        <h2 className="text-5xl font-semibold text-slate-800 font-sans mb-8">
+          About us{" "}
         </h2>
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2 mb-8 md:mb-0">
-            <Image
-              src={imageUrl1}
-              alt="About SolarTech"
-              className="rounded-lg shadow-xl"
-              width={600}
-              height={400}
-            />
-          </div>
-          <div className="md:w-1/2 md:pl-8">
-            <p className="text-lg text-gray-700 mb-4">
-              SolarTech Solutions is a leading provider of solar panel
-              installation services. With years of experience and a team of
-              skilled professionals, we're committed to helping homeowners and
-              businesses transition to clean, renewable energy.
-            </p>
-            <p className="text-lg text-gray-700 mb-4">
-              Our mission is to make solar energy accessible, affordable, and
-              efficient for everyone. We use cutting-edge technology and best
-              practices to ensure that every installation is optimized for
-              maximum energy production and longevity.
-            </p>
-            <button className="bg-yellow-400 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-yellow-500 transition duration-300">
-              Learn More About Us
-            </button>
-          </div>
-        </div>
+        <AboutSection />
+        <Whychooseus />
+        <Whyus />
+        <Vision />
       </div>
     </section>
   );
