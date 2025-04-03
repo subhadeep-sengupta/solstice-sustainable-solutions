@@ -29,7 +29,7 @@ const offgrid = () => {
           {`We provide complete off-grid commercial solar solutions for businesses & domestic operating in remote areas or seeking energy independence. Our systems generate and store solar energy using high-efficiency panels and battery storage, ensuring a reliable power supply even without grid access. With our off-grid solutions, you can eliminate electricity costs, reduce reliance on fossil fuels, and achieve true energy self-sufficiency.
           `}
         </p>
-        <p className="text-md font-inter font-bold px-8 py-4">{`Approximated Expense :-  65,000 - 80,000`}</p>
+        <p className="text-md font-inter font-bold px-8 py-4">{`Approximated Expense :-  65,000 - 80,000  per kW`}</p>
       </div>
     </section>
   );

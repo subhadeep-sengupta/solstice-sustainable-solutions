@@ -48,7 +48,7 @@ export default function Navbar() {
         <ul className="hidden md:flex justify-center items-center gap-8 uppercase leading-relaxed from-neutral-700 font-semibold font-Inconsolata text-lg rounded-xl my-2 border-black border-2 p-1 w-auto">
           <Tab href="/">Home</Tab>
           <Tab href="/Aboutus">About us</Tab>
-          <Tab href="/Aboutus">Projects</Tab>
+          <Tab href="/Projects">Projects</Tab>
           <Tab href="/Contactus">Contact us</Tab>
         </ul>
 
@@ -82,10 +82,10 @@ export default function Navbar() {
             <MobileTab href="/Aboutus" onClick={() => setIsMenuOpen(false)}>
               About us
             </MobileTab>
-            <MobileTab href="/Aboutus" onClick={() => setIsMenuOpen(false)}>
+            <MobileTab href="/Projects" onClick={() => setIsMenuOpen(false)}>
               Projects
             </MobileTab>
-            <MobileTab href="/contactus" onClick={() => setIsMenuOpen(false)}>
+            <MobileTab href="/Contactus" onClick={() => setIsMenuOpen(false)}>
               Contact us
             </MobileTab>
             <li className="py-3">

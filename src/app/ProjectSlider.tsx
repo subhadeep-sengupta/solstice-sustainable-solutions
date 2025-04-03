@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 
 const ImageTrain = ({ images = [] }) => {
   const [isPaused, setIsPaused] = useState(false);
@@ -9,7 +10,6 @@ const ImageTrain = ({ images = [] }) => {
   const animationRef = useRef(null);
   const [position, setPosition] = useState(0);
 
-  // Sample images if none provided
   const defaultImages = [
     "/1.jpg",
     "/2.jpg",
@@ -21,6 +21,7 @@ const ImageTrain = ({ images = [] }) => {
     "/8.jpg",
   ];
 
+  const router = useRouter();
   const displayImages = images.length > 0 ? images : defaultImages;
 
   // Duplicate images to create a seamless loop
@@ -107,7 +108,10 @@ const ImageTrain = ({ images = [] }) => {
           ))}
         </div>
       </div>
-      <button className="bg-[#007C11] text-white font-sans px-3 py-2 rounded-lg mb-7 mt-3 font-bold hover:bg-[#0bbd38]">
+      <button
+        className="bg-[#007C11] text-white font-sans px-3 py-2 rounded-lg mb-7 mt-3 font-bold hover:bg-[#0bbd38]"
+        onClick={() => router.push("/Projects")}
+      >
         More Projects
       </button>
     </section>

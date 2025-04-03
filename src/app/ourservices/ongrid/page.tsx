@@ -29,7 +29,7 @@ const ongrid = () => {
           {`We provide complete on-grid commercial solar solutions for companies & domestic trying to cut expenses and their carbon footprint.  You may save money on electricity bills, benefit from net metering, and guarantee a consistent energy supply without relying on batteries thanks to our systems' smooth integration with the power grid.  Our on-grid solutions, which are made to satisfy the energy requirements of different industries, offer sustainability and long-term savings while maintaining the effectiveness of your company.
           `}
         </p>
-        <p className="text-md font-inter font-bold px-8 py-4">{`Approximated Expense :-  50,000 - 65,000`}</p>
+        <p className="text-md font-inter font-bold px-8 py-4">{`Approximated Expense :-  50,000 - 65,000  per kW`}</p>
       </div>
     </section>
   );

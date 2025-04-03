@@ -1,4 +1,5 @@
 import AboutSection from "./AboutSection";
+import Brands from "./brands";
 import HeroSection from "./hero";
 import ImageTrain from "./ProjectSlider";
 import Services from "./Services";
@@ -11,6 +12,7 @@ export default function Home() {
       <AboutSection />
       <Whyus />
       <Services />
+      <Brands />
       <ImageTrain />
     </div>
   );

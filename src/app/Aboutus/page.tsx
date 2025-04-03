@@ -1,11 +1,10 @@
 "use client";
 
 import AboutSection from "../AboutSection";
+import Brands from "../brands";
 import Whyus from "../Whyus";
 import Vision from "./vision";
 import Whychooseus from "./whychooseus";
-
-// import Image from "next/image";
 
 export default function Aboutus() {
   return (
@@ -21,12 +20,13 @@ export default function Aboutus() {
 
       <div className="relative flex flex-col justify-center items-center">
         <h2 className="text-5xl font-semibold text-slate-800 font-sans mb-8">
-          About us{" "}
+          About us
         </h2>
         <AboutSection />
         <Whychooseus />
         <Whyus />
         <Vision />
+        <Brands />
       </div>
     </section>
   );
