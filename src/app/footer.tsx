@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="w-full md:w-1/3">
             <h4 className="text-xl font-semibold mb-4">Contact Us</h4>
             <p>Shefali Mansion, Apcar Garden, Asansol, West Bengal 713301</p>
-            <p>Phone:+91 9475588</p>
+            <p>Phone:+91 9475588412</p>
             <p>Email: solsticesustainablesolutions@gmail.com</p>
           </div>
         </div>

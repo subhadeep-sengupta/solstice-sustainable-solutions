@@ -1,4 +1,3 @@
-// import { Navbar } from "../navbar";
 "use client";
 
 import Image from "next/image";
