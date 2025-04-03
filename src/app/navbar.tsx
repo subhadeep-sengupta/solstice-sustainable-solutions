@@ -106,7 +106,7 @@ export default function Navbar() {
   );
 }
 
-const Tab = ({ children, href }) => {
+const Tab = ({ children, href }: { children: string; href: string }) => {
   return (
     <li className="relative group">
       <Link href={href} className="block px-3">
@@ -117,7 +117,15 @@ const Tab = ({ children, href }) => {
   );
 };
 
-const MobileTab = ({ children, href, onClick }) => {
+const MobileTab = ({
+  children,
+  href,
+  onClick,
+}: {
+  children: string;
+  href: string;
+  onClick?: () => void;
+}) => {
   return (
     <li className="w-full">
       <Link
