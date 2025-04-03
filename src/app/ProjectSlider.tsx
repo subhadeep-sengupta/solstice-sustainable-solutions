@@ -5,9 +5,9 @@ import { useRouter } from "next/navigation";
 
 const ImageTrain = ({ images = [] }) => {
   const [isPaused, setIsPaused] = useState(false);
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState(0);
   const containerRef = useRef(null);
-  const animationRef = useRef(null);
+  const animationRef = useRef(0);
   const [position, setPosition] = useState(0);
 
   const defaultImages = [
@@ -67,7 +67,7 @@ const ImageTrain = ({ images = [] }) => {
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => {
           setIsPaused(false);
-          setHoveredIndex(null);
+          setHoveredIndex(0);
         }}
         ref={containerRef}
       >
@@ -87,7 +87,7 @@ const ImageTrain = ({ images = [] }) => {
                     : "translateY(0)",
               }}
               onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
+              onMouseLeave={() => setHoveredIndex(0)}
             >
               <div
                 className={`shadow-lg rounded-lg overflow-hidden transition-all duration-300 ${
