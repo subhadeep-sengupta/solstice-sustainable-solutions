@@ -13,11 +13,11 @@ function AboutSection() {
       <div className="absolute inset-0 bg-white opacity-50"></div>
 
       <div className="relative container mx-auto max-w-5xl px-4">
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-6">
+        <div className="flex flex-col md:grid md:grid-cols-2 sm:grid sm:grid-cols-2 gap-6">
           <div className="bg-white rounded-lg shadow-lg p-6 text-[#028531] flex flex-col justify-between">
             <div>
               <h1 className="text-2xl md:text-4xl font-bold mb-4">{`Best solar company in Durgapur & Asansol`}</h1>
-              <p className="font-inconsolata text-md font-semibold text-black">
+              <p className="font-sans text-md font-semibold tracking-wide text-black mt-8P">
                 {`Welcome to Solstice Sustainable Soltutions, the leading solar energy solutions provider in Asansol, West Bengal. We specialize in delivering high-quality, affordable, and sustainable solar power solutions tailored to your needs. From top-tier solar panels and inverters to expertly designed structural systems, we ensure maximum efficiency and long-term savings. Whether you're a homeowner, business, or industrial facility looking to cut energy costs and embrace a greener future, our expert team is here to provide seamless installation and exceptional service. Experience energy independence with the most trusted name in solar power.`}
               </p>
             </div>
@@ -32,7 +32,7 @@ function AboutSection() {
           <div className="flex flex-col gap-6 h-full">
             <div className="relative h-0 pb-[56.25%] w-full overflow-hidden rounded-lg border-2 border-[#028531]">
               <Image
-                src="/15.jpg"
+                src="/16.jpg"
                 alt="Solar panels installation"
                 className="object-cover"
                 fill
@@ -43,7 +43,7 @@ function AboutSection() {
 
             <div className="relative h-0 pb-[56.25%] w-full overflow-hidden rounded-lg border-2 border-[#028531]">
               <Image
-                src="/5.jpg"
+                src="/17.jpg"
                 alt="Solar energy solution"
                 className="object-cover"
                 fill

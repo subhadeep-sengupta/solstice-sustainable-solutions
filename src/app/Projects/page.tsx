@@ -5,26 +5,30 @@ function page() {
   const projects = [
     {
       link: "/1.jpg",
-      paragraph: "30 kW On-Grid Solar Panel Installation",
+      paragraph: "33 kW On-Grid at Asansol",
     },
     {
       link: "/14.jpg",
-      paragraph: "15 kW On-Grid Solar Panel Installation",
+      paragraph: "15 kW On-Grid at Talberia, Asansol ",
     },
     {
       link: "/3.jpg",
-      paragraph: "5 kW On-Grid Solar Panel Installation",
+      paragraph: "5 kW Off-Grid at Maithan",
+    },
+    {
+      link: "/3.jpg",
+      paragraph: "5 kW Off-Grid at Kumardhubi, Maithan",
     },
     {
       link: "/15.jpg",
-      paragraph: "10 kW Off-Grid Solar Panel Installation",
+      paragraph: "7 kW On-Grid at Asansol",
     },
   ];
 
   return (
     <div className="flex flex-col justify-center items-center w-full min-h-screen py-12 px-4">
-      <h1 className="text-4xl font-sans font-semibold text-slate-700 mb-12">
-        Our Previous Projects
+      <h1 className="text-4xl font-sans font-semibold text-slate-800 mb-12">
+        Projects Executed
       </h1>
       <div className="flex flex-col items-center justify-center w-full max-w-4xl gap-16">
         {projects.map((project, index) => (

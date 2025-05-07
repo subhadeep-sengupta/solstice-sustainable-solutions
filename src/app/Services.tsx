@@ -57,7 +57,7 @@ const Service = ({
 }) => {
   const router = useRouter();
   return (
-    <div className="bg-white text-black m-3 rounded-xl  flex flex-col justify-start items-center py-5 border-[#007C11] border-2 h-[700px] w-[600px] md:w-[330px] md:h-[590px]">
+    <div className="bg-white text-black m-3 rounded-xl  flex flex-col justify-start items-center py-5 border-[#007C11] border-2 h-[700px] w-[400px] md:w-[330px] md:h-[590px]">
       <Image
         src={source}
         alt="Solar panels installation"
